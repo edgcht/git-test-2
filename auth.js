@@ -25,4 +25,15 @@ const auth = {
   }
 };
 
+const testUser = {
+  id: 1,
+  name: 'Test User',
+  email: '',
+    role: 'admin'
+};
+
+// Simulate a login for testing purposes
+auth.login(testUser);
+
+
 export default auth;
